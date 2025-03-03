@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&family=Monomakh&family=Shadows+Into+Light&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 0; /* remove all body margins */
+  font-size: 120%;
+}
+
+h1, h2 {
+  font-family: 'McLaren', cursive;
+  color: #f75c03;
+}
+
+.main {
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-bottom: 4em; /* larger margin to allow for the footer */
+}
+header {
+  display: flex;
+  align-items:center;
+  background:#0cbe9b;
+}
+header h1 {
+  font-family: "Shadows Into Light", serif;
+  font-size: 400%;
+  font-weight: lighter;
+  color: black;
+}
+nav {
+  background-color:#0a85d8;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  display: flex; /* Display the children of this element as flexible boxes */
+  align-items: center; /* Align child flexible boxes in the vertical center */
+}
+nav p {
+  text-align:center;
+  flex-basis: 100px; /* Give each paragraph the same basic width */
+  flex-grow: 1; /* Allow each paragraph to grow evenly to fill up the parent nav element */
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: black;
+}
+footer {
+  background-color:#0a85d8; /* background or background-color both work */
+  position: fixed;/* fix to the viewpoint */
+  bottom: 0;/* start 0 pixels from the bottom of the viewpoint */
+  width: 100%; /* set the width to 100% of the viewpoint */
+  left: 0; /* start 0 pixels from the left of the viewpoint */
+  height: 3em; /* Set the footer elements height to 3 times the font size */
+  border-top: solid black thin; /* have put the unit, e.g. px or %, if not zero */
+  text-align: center;
+  box-shadow: 0px -2px #0a85d8;
+}
+.centre {
+  text-align: center;
+}
+.float {
+  float: right;
+}
+.small {
+  font-size: smaller;
+}
+.italics {
+  font-style: italic;
+}
+  
